@@ -1,0 +1,7 @@
+// Custom.scss
+// Your variable overrides
+$body-bg: black;
+$body-color: $body-bg;
+
+// Include all of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
