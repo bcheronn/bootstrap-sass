@@ -1,7 +1,11 @@
 // Custom.scss
-// Your variable overrides
+// Bootstrap variable overrides
 $body-bg: black;
 $body-color: $body-bg;
+
+$theme-colors: (
+  "myo": purple,
+);
 
 // Include all of Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
