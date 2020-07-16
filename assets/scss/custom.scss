@@ -1,10 +1,17 @@
 // Custom.scss
 // Bootstrap variable overrides
-$body-bg: black;
+$myo-purple: #522b92;
+
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;
+
+$body-bg: $myo-purple;
 $body-color: $body-bg;
 
 $theme-colors: (
-  "myo": purple,
+  "ternary": red,
+  "myo": $myo-purple,
 );
 
 // Include all of Bootstrap
